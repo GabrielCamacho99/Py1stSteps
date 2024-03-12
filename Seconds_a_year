@@ -1,0 +1,9 @@
+second = 1 
+minute = 60 
+hour = 60 
+hours_a_day = 24 
+days_a_year = 365 
+seconds_a_hour = second * minute * hour
+seconds_a_day = seconds_a_hour * hours_a_day
+seconds_a_year = seconds_a_day * days_a_year
+print(seconds_a_year)
